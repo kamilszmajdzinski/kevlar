@@ -105,6 +105,11 @@ body {
 
 .aboutUs:target{
     display: block;
+    margin-bottom: 120px;
+}
+
+.aboutUs:target ~ .home {
+    display: none;
 }
 
 .sectionContainerInner {
@@ -125,6 +130,11 @@ body {
 
 .prices:target {
     display: block;
+    margin-bottom: 120px;
+}
+
+.prices:target ~ .home {
+    display: none;
 }
 
 .contact {
@@ -133,6 +143,11 @@ body {
 
 .contact:target{
     display: block;
+    margin-bottom: 120px;
+}
+
+.contact:target ~ .home {
+    display: none;
 }
 
 .offer {
@@ -142,6 +157,10 @@ body {
 .offer:target {
     display: block;
     margin-bottom: 120px;
+}
+
+.offer:target ~ .home {
+    display: none;
 }
 
 @media screen and (max-width: 800px) {
